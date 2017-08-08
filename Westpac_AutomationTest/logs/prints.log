@@ -1,6 +1,5 @@
-00:07:54.864 [main] INFO  co.westpac.pom.HomePage - inside selectKiwiCalculator method
-00:14:05.233 [main] INFO  co.westpac.pom.HomePage - inside selectKiwiCalculator method
-00:26:04.808 [main] INFO  co.westpac.pom.HomePage - inside selectKiwiCalculator method
-00:26:10.056 [main] INFO  co.westpac.pom.HomePage - inside selectKiwiCalculator method
-00:26:14.585 [main] INFO  co.westpac.pom.HomePage - inside selectKiwiCalculator method
-00:26:18.809 [main] INFO  co.westpac.pom.HomePage - inside selectKiwiCalculator method
+02:25:23.068 [main] INFO  co.westpac.pom.RetirementCalculatorPage - Info icon is displayed
+02:25:24.007 [main] INFO  co.westpac.pom.RetirementCalculatorPage - Info icon is displayed
+02:25:24.959 [main] INFO  co.westpac.pom.RetirementCalculatorPage - Info icon is displayed
+02:25:25.871 [main] INFO  co.westpac.pom.RetirementCalculatorPage - Info icon is displayed
+02:25:26.654 [main] INFO  co.westpac.pom.RetirementCalculatorPage - Info icon is displayed
