@@ -8,6 +8,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import co.westpac.generic.SuperTestNg;
 
 /**
@@ -163,8 +166,8 @@ public class RetirementCalculatorPage extends SuperTestNg{
 	 * method to switch to frame 
 	 */
 	public void switchToFrame() {
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
-		driver.switchTo().frame(calculatorFrame);
+		WebDriverWait wait = new WebDriverWait(driver,10);
+		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(calculatorFrame));
 		log.debug("after switching to iframe");	
 	}
 	
