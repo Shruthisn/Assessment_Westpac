@@ -1,5 +1,5 @@
-09:52:53.811 [main] INFO  co.westpac.pom.RetirementCalculatorPage - Info icon is displayed
-09:52:55.264 [main] INFO  co.westpac.pom.RetirementCalculatorPage - Info icon is displayed
-09:52:56.577 [main] INFO  co.westpac.pom.RetirementCalculatorPage - Info icon is displayed
-09:52:57.845 [main] INFO  co.westpac.pom.RetirementCalculatorPage - Info icon is displayed
-09:52:59.249 [main] INFO  co.westpac.pom.RetirementCalculatorPage - Info icon is displayed
+20:35:47.841 [main] DEBUG co.westpac.pom.KiwiSaverCalculatorPage - Before scrolling window
+20:35:49.770 [main] INFO  co.westpac.pom.KiwiSaverCalculatorPage - after clicking on get started
+20:35:58.704 [main] DEBUG co.westpac.pom.RetirementCalculatorPage - after switching to iframe
+20:36:07.849 [main] INFO  co.westpac.pom.RetirementCalculatorPage - Projected balance at retirement is displayed--$
+313,971

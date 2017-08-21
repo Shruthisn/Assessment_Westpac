@@ -23,14 +23,17 @@ public class Screenshots extends SuperTestNg{
     public void getPassScreenshot(String result) throws IOException{
     	log.info("inside screenshots method");
     	File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-    	FileUtils.copyFile(src, new File("PassScreenshots//"+result+"screenshot.png"));
+    	String passScreenshotPath=new File("PassScreenshots").getAbsolutePath(); 
+    	System.out.println(passScreenshotPath);
+    	FileUtils.copyFile(src, new File(passScreenshotPath+"//"+result+"screenshot.png"));
     	log.debug("after copying screenshot to a file");
     }
     
     public void getFailScreenshot(String result) throws IOException{
     	log.info("inside screenshots method");
     	File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-    	FileUtils.copyFile(src, new File("FailScreenshots//"+result+"screenshot.png"));
+    	String failScreenshotPath=new File("FailScreenshots").getAbsolutePath();
+    	FileUtils.copyFile(src, new File(failScreenshotPath+"//"+result+"screenshot.png"));
     	log.debug("after copying screenshot to a file");
     }
 }

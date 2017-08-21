@@ -1,177 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" total="20" passed="14">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[User is able to calculate his projected balance at retirement]]>
     </line>
-    <line>
-      <![CDATA[User is able to calculate his projected balance at retirement]]>
-    </line>
-    <line>
-      <![CDATA[User is able to calculate his projected balance at retirement]]>
-    </line>
-    <line>
-      <![CDATA[Expected message is displayed after clicking on Current Age help icon]]>
-    </line>
-    <line>
-      <![CDATA[Expected message is displayed after clicking on Employment Status help icon]]>
-    </line>
-    <line>
-      <![CDATA[Expected message is displayed after clicking on salary per year help icon]]>
-    </line>
-    <line>
-      <![CDATA[Expected message is displayed after clicking on Member Contribution help icon]]>
-    </line>
-    <line>
-      <![CDATA[Expected message is displayed after clicking on PIR help icon]]>
-    </line>
-    <line>
-      <![CDATA[Expected message is displayed after clicking on Find My Rate help icon]]>
-    </line>
-    <line>
-      <![CDATA[Expected message is not displayed after clicking on Kiwi Saver Balance help icon]]>
-    </line>
-    <line>
-      <![CDATA[Expected message is displayed after clicking on Voluntary Contributions help icon]]>
-    </line>
-    <line>
-      <![CDATA[Expected message is displayed after clicking on Risk Profile help icon]]>
-    </line>
-    <line>
-      <![CDATA[Expected message is displayed after clicking on Savings Goal help icon]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="114356" started-at="2017-08-09T04:21:08Z" finished-at="2017-08-09T04:23:02Z">
+  <suite name="Default suite" duration-ms="39484" started-at="2017-08-21T15:05:32Z" finished-at="2017-08-21T15:06:11Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="114356" started-at="2017-08-09T04:21:08Z" finished-at="2017-08-09T04:23:02Z">
+    <test name="Default test" duration-ms="39484" started-at="2017-08-21T15:05:32Z" finished-at="2017-08-21T15:06:11Z">
       <class name="co.westpac.testscripts.KiwiCal_Employed_Balance">
-        <test-method status="PASS" signature="BrowserInit()[pri:0, instance:co.westpac.testscripts.KiwiCal_Employed_Balance@4416d64f]" name="BrowserInit" is-config="true" duration-ms="18901" started-at="2017-08-09T09:51:08Z" finished-at="2017-08-09T09:51:27Z">
+        <test-method status="PASS" signature="BrowserInit()[pri:0, instance:co.westpac.testscripts.KiwiCal_Employed_Balance@a1cdc6d]" name="BrowserInit" is-config="true" duration-ms="4878" started-at="2017-08-21T20:35:32Z" finished-at="2017-08-21T20:35:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserInit -->
-        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:co.westpac.testscripts.KiwiCal_Employed_Balance@4416d64f]" name="LaunchURL" is-config="true" duration-ms="11506" started-at="2017-08-09T09:51:27Z" finished-at="2017-08-09T09:51:39Z">
+        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:co.westpac.testscripts.KiwiCal_Employed_Balance@a1cdc6d]" name="LaunchURL" is-config="true" duration-ms="8417" started-at="2017-08-21T20:35:36Z" finished-at="2017-08-21T20:35:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchURL -->
-        <test-method status="PASS" signature="calculateBalanceForEmployed()[pri:0, instance:co.westpac.testscripts.KiwiCal_Employed_Balance@4416d64f]" name="calculateBalanceForEmployed" duration-ms="19121" started-at="2017-08-09T09:51:39Z" finished-at="2017-08-09T09:51:58Z">
+        <test-method status="PASS" signature="calculateBalanceForEmployed()[pri:0, instance:co.westpac.testscripts.KiwiCal_Employed_Balance@a1cdc6d]" name="calculateBalanceForEmployed" duration-ms="22493" started-at="2017-08-21T20:35:45Z" finished-at="2017-08-21T20:36:07Z">
           <reporter-output>
             <line>
               <![CDATA[User is able to calculate his projected balance at retirement]]>
             </line>
           </reporter-output>
         </test-method> <!-- calculateBalanceForEmployed -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:co.westpac.testscripts.KiwiCal_Employed_Balance@4416d64f]" name="CloseBrowser" is-config="true" duration-ms="2641" started-at="2017-08-09T09:53:00Z" finished-at="2017-08-09T09:53:02Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:co.westpac.testscripts.KiwiCal_Employed_Balance@a1cdc6d]" name="CloseBrowser" is-config="true" duration-ms="2631" started-at="2017-08-21T20:36:08Z" finished-at="2017-08-21T20:36:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- co.westpac.testscripts.KiwiCal_Employed_Balance -->
-      <class name="co.westpac.testscripts.KiwiCal_SelfEmployed_Balance">
-        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:co.westpac.testscripts.KiwiCal_SelfEmployed_Balance@5e3d57c7]" name="LaunchURL" is-config="true" duration-ms="2461" started-at="2017-08-09T09:52:20Z" finished-at="2017-08-09T09:52:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchURL -->
-        <test-method status="PASS" signature="calculateBalanceForSelfEmployed()[pri:0, instance:co.westpac.testscripts.KiwiCal_SelfEmployed_Balance@5e3d57c7]" name="calculateBalanceForSelfEmployed" duration-ms="13127" started-at="2017-08-09T09:52:22Z" finished-at="2017-08-09T09:52:35Z">
-          <reporter-output>
-            <line>
-              <![CDATA[User is able to calculate his projected balance at retirement]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- calculateBalanceForSelfEmployed -->
-      </class> <!-- co.westpac.testscripts.KiwiCal_SelfEmployed_Balance -->
-      <class name="co.westpac.testscripts.KiwiCal_InfoIconValidation">
-        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:co.westpac.testscripts.KiwiCal_InfoIconValidation@732d0d24]" name="LaunchURL" is-config="true" duration-ms="2660" started-at="2017-08-09T09:52:36Z" finished-at="2017-08-09T09:52:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchURL -->
-        <test-method status="PASS" signature="navigateToCalculator()[pri:1, instance:co.westpac.testscripts.KiwiCal_InfoIconValidation@732d0d24]" name="navigateToCalculator" duration-ms="5859" started-at="2017-08-09T09:52:39Z" finished-at="2017-08-09T09:52:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToCalculator -->
-        <test-method status="PASS" signature="validateCurrentAgeInfoIcon()[pri:2, instance:co.westpac.testscripts.KiwiCal_InfoIconValidation@732d0d24]" name="validateCurrentAgeInfoIcon" duration-ms="839" started-at="2017-08-09T09:52:45Z" finished-at="2017-08-09T09:52:46Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Expected message is displayed after clicking on Current Age help icon]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateCurrentAgeInfoIcon -->
-        <test-method status="PASS" signature="validateEmploymentStatusInfoIcon()[pri:3, instance:co.westpac.testscripts.KiwiCal_InfoIconValidation@732d0d24]" name="validateEmploymentStatusInfoIcon" duration-ms="853" started-at="2017-08-09T09:52:46Z" finished-at="2017-08-09T09:52:47Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Expected message is displayed after clicking on Employment Status help icon]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateEmploymentStatusInfoIcon -->
-        <test-method status="PASS" signature="validateSalaryPerYearInfoIcon()[pri:4, instance:co.westpac.testscripts.KiwiCal_InfoIconValidation@732d0d24]" name="validateSalaryPerYearInfoIcon" duration-ms="1682" started-at="2017-08-09T09:52:48Z" finished-at="2017-08-09T09:52:49Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Expected message is displayed after clicking on salary per year help icon]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateSalaryPerYearInfoIcon -->
-        <test-method status="PASS" signature="validateMemberContributionInfoIcon()[pri:5, instance:co.westpac.testscripts.KiwiCal_InfoIconValidation@732d0d24]" name="validateMemberContributionInfoIcon" duration-ms="934" started-at="2017-08-09T09:52:50Z" finished-at="2017-08-09T09:52:51Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Expected message is displayed after clicking on Member Contribution help icon]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateMemberContributionInfoIcon -->
-        <test-method status="PASS" signature="validatePirInfoIcon()[pri:6, instance:co.westpac.testscripts.KiwiCal_InfoIconValidation@732d0d24]" name="validatePirInfoIcon" duration-ms="879" started-at="2017-08-09T09:52:51Z" finished-at="2017-08-09T09:52:52Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Expected message is displayed after clicking on PIR help icon]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validatePirInfoIcon -->
-        <test-method status="PASS" signature="validateFindMyRateInfoIcon()[pri:7, instance:co.westpac.testscripts.KiwiCal_InfoIconValidation@732d0d24]" name="validateFindMyRateInfoIcon" duration-ms="1229" started-at="2017-08-09T09:52:53Z" finished-at="2017-08-09T09:52:54Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Expected message is displayed after clicking on Find My Rate help icon]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateFindMyRateInfoIcon -->
-        <test-method status="PASS" signature="validateKiwiSaverBalanceInfoIcon()[pri:8, instance:co.westpac.testscripts.KiwiCal_InfoIconValidation@732d0d24]" name="validateKiwiSaverBalanceInfoIcon" duration-ms="991" started-at="2017-08-09T09:52:54Z" finished-at="2017-08-09T09:52:55Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Expected message is not displayed after clicking on Kiwi Saver Balance help icon]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateKiwiSaverBalanceInfoIcon -->
-        <test-method status="PASS" signature="validateVoluntaryContributionsInfoIcon()[pri:9, instance:co.westpac.testscripts.KiwiCal_InfoIconValidation@732d0d24]" name="validateVoluntaryContributionsInfoIcon" duration-ms="855" started-at="2017-08-09T09:52:56Z" finished-at="2017-08-09T09:52:57Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Expected message is displayed after clicking on Voluntary Contributions help icon]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateVoluntaryContributionsInfoIcon -->
-        <test-method status="PASS" signature="validateRiskProfileInfoIcon()[pri:10, instance:co.westpac.testscripts.KiwiCal_InfoIconValidation@732d0d24]" name="validateRiskProfileInfoIcon" duration-ms="897" started-at="2017-08-09T09:52:57Z" finished-at="2017-08-09T09:52:58Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Expected message is displayed after clicking on Risk Profile help icon]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateRiskProfileInfoIcon -->
-        <test-method status="PASS" signature="validateSavingsGoalInfoIcon()[pri:11, instance:co.westpac.testscripts.KiwiCal_InfoIconValidation@732d0d24]" name="validateSavingsGoalInfoIcon" duration-ms="953" started-at="2017-08-09T09:52:58Z" finished-at="2017-08-09T09:52:59Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Expected message is displayed after clicking on Savings Goal help icon]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateSavingsGoalInfoIcon -->
-      </class> <!-- co.westpac.testscripts.KiwiCal_InfoIconValidation -->
-      <class name="co.westpac.testscripts.KiwiCal_NotEmployed_Balance">
-        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:co.westpac.testscripts.KiwiCal_NotEmployed_Balance@6bf08014]" name="LaunchURL" is-config="true" duration-ms="2421" started-at="2017-08-09T09:51:59Z" finished-at="2017-08-09T09:52:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchURL -->
-        <test-method status="PASS" signature="calculateBalanceForNotEmployed()[pri:0, instance:co.westpac.testscripts.KiwiCal_NotEmployed_Balance@6bf08014]" name="calculateBalanceForNotEmployed" duration-ms="17655" started-at="2017-08-09T09:52:02Z" finished-at="2017-08-09T09:52:19Z">
-          <reporter-output>
-            <line>
-              <![CDATA[User is able to calculate his projected balance at retirement]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- calculateBalanceForNotEmployed -->
-      </class> <!-- co.westpac.testscripts.KiwiCal_NotEmployed_Balance -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

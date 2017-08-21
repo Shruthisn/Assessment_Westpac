@@ -6,6 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import co.westpac.generic.ExcelUtil;
 import co.westpac.generic.SuperTestNg;
@@ -20,6 +21,7 @@ import co.westpac.pom.KiwiSaverCalculatorPage;
  * @author shruthi
  *
  */
+@Listeners(co.westpac.generic.Listeners.class)
 public class KiwiCal_InfoIconValidation extends SuperTestNg{
 	
 	private static Logger log= LogManager.getLogger(KiwiCal_InfoIconValidation.class.getName());
@@ -160,7 +162,6 @@ public class KiwiCal_InfoIconValidation extends SuperTestNg{
 		WebElement voluntaryContributionsInfoIcon=rp.getVoluntaryContributionsInfoIcon();
 		String helpText=rp.getHelpText(voluntaryContributionsInfoIcon);
 		if(helpText.equals(voluntaryContributionsHelpText)){
-			System.out.println("inside voluntary contributions true condition");
 			Reporter.log("Expected message is displayed after clicking on Voluntary Contributions help icon");
 		}else{
 			log.error("inside assert false");

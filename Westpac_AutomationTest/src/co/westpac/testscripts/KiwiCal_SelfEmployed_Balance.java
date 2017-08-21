@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import co.westpac.generic.ExcelUtil;
 import co.westpac.generic.SuperTestNg;
@@ -18,6 +19,7 @@ import co.westpac.pom.RetirementCalculatorPage;
  * @author shruthi
  *
  */
+@Listeners(co.westpac.generic.Listeners.class)
 public class KiwiCal_SelfEmployed_Balance extends SuperTestNg {
 	
 	private static Logger log= LogManager.getLogger(KiwiCal_SelfEmployed_Balance.class.getName());

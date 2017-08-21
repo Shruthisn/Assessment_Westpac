@@ -1,0 +1,7 @@
+20:33:05.003 [main] DEBUG co.westpac.pom.RetirementCalculatorPage - after switching to iframe
+20:33:12.050 [main] INFO  co.westpac.pom.RetirementCalculatorPage - Projected balance at retirement is displayed--$
+313,971
+20:35:46.704 [main] INFO  co.westpac.pom.HomePage - inside selectKiwiCalculator method
+20:35:47.399 [main] INFO  co.westpac.pom.HomePage - after moving to kiwi saver
+20:35:47.675 [main] INFO  co.westpac.pom.HomePage - after clicking on kiwi calculator
+20:35:47.677 [main] INFO  co.westpac.pom.KiwiSaverCalculatorPage - Inside openRetirementCalculator method
