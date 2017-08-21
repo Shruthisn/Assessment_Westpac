@@ -12,6 +12,10 @@
 	      <pathelement location="Jars/testng-6.8.1.jar"/>
 	   </classpath>
 	</taskdef>
+	
+	<path id="log4j2.classpath">
+	        <file file="resources/log4j2.xml"/>
+	    </path>
 <property environment="env"/>
 
 <property name="ws.home" value="${basedir}"/>
